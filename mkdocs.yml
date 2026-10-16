@@ -1,0 +1,25 @@
+site_name: Backups for Mere Mortals
+site_description: Plain-language backups — the 3-2-1 rule, restic and BorgBackup step by step, retention, automation, and proving a restore actually works.
+site_url: https://paulsullivan33-dev.github.io/backups-for-mere-mortals/
+
+# Guides live at the repo root (nice for GitHub browsing).
+# The deploy workflow copies them into docs/ before building.
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - What a Backup Is: what-a-backup-is.md
+  - The 3-2-1 Rule: the-3-2-1-rule.md
+  - What to Back Up: what-to-back-up.md
+  - Your First Backup with Restic: your-first-backup-restic.md
+  - Restoring with Restic: restoring-with-restic.md
+  - History and Pruning: history-and-pruning.md
+  - Automating It: automating-backups.md
+  - BorgBackup: borgbackup.md
+  - Plain Copies with Rsync: plain-copies-rsync.md
+  - Checking and Testing Restores: checking-and-testing-restores.md
+  - Encryption and Passwords: encryption-and-passwords.md
+  - Troubleshooting: troubleshooting.md
+  - Glossary: glossary.md
+  - Writing Criteria: criteria.md
